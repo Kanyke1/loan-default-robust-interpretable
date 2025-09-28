@@ -59,7 +59,6 @@ class EventManager:
 # single global manager to import elsewhere
 manager = EventManager()
 
-
 def notify(payload: Dict[str, Any]) -> None:
     """
     Sync-friendly helper to schedule a broadcast from synchronous code.
